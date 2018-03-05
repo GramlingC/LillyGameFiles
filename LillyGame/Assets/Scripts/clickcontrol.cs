@@ -5,7 +5,8 @@ using UnityEngine;
 public class clickcontrol : MonoBehaviour {
 
     public static string nameofobj;
-    public GameObject objnametext;
+    //whatever prompt we are using for the level, image or text
+    public GameObject objhintprompt;
     public Transform successclick;
 
 	// Use this for initialization
@@ -24,8 +25,10 @@ public class clickcontrol : MonoBehaviour {
         /* for debugging porposes
           Debug.Log(nameofobj); */
         Destroy(gameObject);
-        Destroy(objnametext);
+        Destroy(objhintprompt);
+        //Keep track of useless click
+        trackingclicks.totalclicks = 0;
         //Particle effect where text used to be
-        Instantiate(successclick, objnametext.transform.position, successclick.rotation);
+        Instantiate(successclick, objhintprompt.transform.position, successclick.rotation);
     }
 }
