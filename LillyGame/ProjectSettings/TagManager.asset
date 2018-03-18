@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - TargetObject
+  - music
   layers:
   - Default
   - TransparentFX
