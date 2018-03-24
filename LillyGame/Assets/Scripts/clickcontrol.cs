@@ -8,6 +8,7 @@ public class clickcontrol : MonoBehaviour {
     //whatever prompt we are using for the level, image or text
     public GameObject objhintprompt;
     public Transform successclick;
+    public AudioSource AudioSource;
 
 	// Use this for initialization
 	void Start () {
@@ -25,7 +26,7 @@ public class clickcontrol : MonoBehaviour {
         /* for debugging porposes
           Debug.Log(nameofobj); */
         Destroy(gameObject);
-        Destroy(objhintprompt);
+        AudioSource.Play();
         //Keep track of useless click
         trackingclicks.totalclicks = 0;
         //Particle effect where text used to be

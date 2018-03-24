@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class endgame : MonoBehaviour {
 
@@ -14,7 +15,7 @@ public class endgame : MonoBehaviour {
         //End Game if all tagged objects are gone
         if (GameObject.FindGameObjectsWithTag("TargetObject").Length <= 0)
         {
-            Application.Quit();
+            SceneManager.LoadScene("StartLevel");
         }
 	}
 }
