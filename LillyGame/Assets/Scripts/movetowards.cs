@@ -8,6 +8,8 @@ public class movetowards : MonoBehaviour
     public Transform target;
     public float speed;
     Vector3 originalPos;
+    public static string hintready = "n";
+    public static string hintused = "n";
 
     // Use this for initialization
     void Start()
@@ -26,7 +28,7 @@ public class movetowards : MonoBehaviour
         //check if object has reached its destination
         if (gameObject.transform.position == target.position)
         {
-          return;
+            hintready = "y";
         }
     }
 
@@ -38,6 +40,8 @@ public class movetowards : MonoBehaviour
     }
     void OnMouseDown()
     {
+        hintused = "y";
+        hintready = "n";
         ResetPosition();
     }
 }
