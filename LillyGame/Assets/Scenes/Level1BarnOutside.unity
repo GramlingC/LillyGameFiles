@@ -310,7 +310,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objhintprompt: {fileID: 49867323}
   successclick: {fileID: 1145595185}
+  hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
+  randNumb: 0
 --- !u!61 &31207318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -548,7 +550,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objhintprompt: {fileID: 925149092}
   successclick: {fileID: 1145595185}
+  hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
+  randNumb: 0
 --- !u!61 &198970806
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -872,7 +876,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objhintprompt: {fileID: 445900127}
   successclick: {fileID: 1145595185}
+  hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
+  randNumb: 0
 --- !u!61 &286854628
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1376,31 +1382,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1774291205}
   speed: 0.1
---- !u!61 &581078575
-BoxCollider2D:
+--- !u!65 &581078575
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 581078570}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.23, y: 2.26}
-    newSize: {x: 2.23, y: 2.26}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.23, y: 2.26}
-  m_EdgeRadius: 0
+  m_Size: {x: 2.23, y: 2.26, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &835052472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,7 +1727,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objhintprompt: {fileID: 284390918}
   successclick: {fileID: 1145595185}
+  hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
+  randNumb: 0
 --- !u!61 &906067007
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2257,7 +2252,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objhintprompt: {fileID: 835052472}
   successclick: {fileID: 1145595185}
+  hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
+  randNumb: 0
 --- !u!61 &1331849005
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2440,7 +2437,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objhintprompt: {fileID: 482218495}
   successclick: {fileID: 1145595185}
+  hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
+  randNumb: 0
 --- !u!61 &1574656947
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2824,7 +2823,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.04957828, g: 0.09368572, b: 0.9632353, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -6136,7 +6135,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objhintprompt: {fileID: 427992618}
   successclick: {fileID: 1145595185}
+  hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
+  randNumb: 0
 --- !u!61 &1873674522
 BoxCollider2D:
   m_ObjectHideFlags: 0
