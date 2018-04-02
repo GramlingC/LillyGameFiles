@@ -31,7 +31,7 @@ public class movetowards : MonoBehaviour
         //check if object has reached its destination
         if (gameObject.transform.position == target.position)
         {
-            m_Collider.enabled = !m_Collider.enabled;
+            m_Collider.enabled = true;
             hintready = "y";
         }
     }

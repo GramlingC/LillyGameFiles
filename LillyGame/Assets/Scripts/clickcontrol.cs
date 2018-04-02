@@ -25,8 +25,9 @@ public class clickcontrol : MonoBehaviour {
             randNumb = Random.Range(1, 7);
             if((gameObject.name == "Bunny1") && (randNumb == 1))
             {
-                Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
+                var clone = Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
                 movetowards.hintused = "n";
+                Destroy(clone);
             }
             if ((gameObject.name == "Cow1") && (randNumb == 2))
             {
@@ -57,9 +58,15 @@ public class clickcontrol : MonoBehaviour {
             {
                 Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
                 movetowards.hintused = "n";
-            }
+           }
         }
+        destroyClone();
 	}
+    void destroyClone()
+    {
+        Destroy(GameObject.Find("ring(Clone)"),2f);
+
+    }
 
     void OnMouseDown()
     {
