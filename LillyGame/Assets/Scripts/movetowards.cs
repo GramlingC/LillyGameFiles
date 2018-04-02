@@ -7,6 +7,7 @@ public class movetowards : MonoBehaviour
 
     public Transform target;
     public float speed;
+    public GameObject trail;
     Vector3 originalPos;
     public static string hintready = "n";
     public static string hintused = "n";
@@ -19,6 +20,7 @@ public class movetowards : MonoBehaviour
         originalPos = gameObject.transform.position;
         m_Collider = GetComponent<Collider>();
         m_Collider.enabled = !m_Collider.enabled;
+        GetComponent<Animator>().SetFloat("Speed", speed);
     }
 
     // Update is called once per frame
@@ -31,6 +33,7 @@ public class movetowards : MonoBehaviour
         //check if object has reached its destination
         if (gameObject.transform.position == target.position)
         {
+            GetComponent<Animator>().SetFloat("Speed", 0);
             m_Collider.enabled = true;
             hintready = "y";
         }
@@ -40,6 +43,11 @@ public class movetowards : MonoBehaviour
     void ResetPosition()
     {
         gameObject.transform.position = originalPos;
+        GetComponent<Animator>().SetFloat("Speed", speed);
+        foreach (YarnTrail yt in trail.GetComponentsInChildren<YarnTrail>())
+        {
+            yt.resetTrail();
+        }
 
     }
 
