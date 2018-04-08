@@ -11,57 +11,27 @@ public class clickcontrol : MonoBehaviour {
     public Transform hintsparkling;
     public AudioSource AudioSource;
 
-    public int randNumb = 0;
+    public GameObject[] TargetObjects;
+
 
 	// Use this for initialization
 	void Start () {
-		
-	}
+        //Scan the scene for tagged gameobjects and put them into that array
+        TargetObjects = GameObject.FindGameObjectsWithTag("TargetObject");
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		if(movetowards.hintused == "y")
+        if (movetowards.hintused == "y")
         {
-            //Tim S. - I changed the range from 7 to 8.
-            //          This way the computer will use the number 7, instead of only one through six.
-            randNumb = Random.Range(1, 8);
-            if((gameObject.name == "Bunny1") && (randNumb == 1))
-            {
+
+            //Tim S. - I modified Diana's code to be more modular. Able to use it across all scenes
+            //Randomly selects one of the game objects from the array.
+            if (gameObject == TargetObjects[Random.Range(0, TargetObjects.Length)])
+                {
                 var clone = Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
                 movetowards.hintused = "n";
-                //Tim S. - Destroy(clone) causes an error because "Destroying the transform compnent is not allowed
-                //          destroyClone() works best, so we don't need the Destroy(clone)
             }
-            if ((gameObject.name == "Cow1") && (randNumb == 2))
-            {
-                Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
-                movetowards.hintused = "n";
-            }
-            if ((gameObject.name == "Rooster1") && (randNumb == 3))
-            {
-                Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
-                movetowards.hintused = "n";
-            }
-            if ((gameObject.name == "Horse1") && (randNumb == 4))
-            {
-                Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
-                movetowards.hintused = "n";
-            }
-            if ((gameObject.name == "Butterfly1") && (randNumb == 5))
-            {
-                Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
-                movetowards.hintused = "n";
-            }
-            if ((gameObject.name == "Snake1") && (randNumb == 6))
-            {
-                Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
-                movetowards.hintused = "n";
-            }
-            if ((gameObject.name == "Trowel1") && (randNumb == 7))
-            {
-                Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
-                movetowards.hintused = "n";
-           }
         }
         destroyClone();
 	}
