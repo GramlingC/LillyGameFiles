@@ -33,6 +33,7 @@ public class movetowards : MonoBehaviour
         //check if object has reached its destination
         if (gameObject.transform.position == target.position)
         {
+            //"Stop" the object and enable clicking and hints
             GetComponent<Animator>().SetFloat("Speed", 0);
             m_Collider.enabled = true;
             hintready = "y";
@@ -44,6 +45,7 @@ public class movetowards : MonoBehaviour
     {
         gameObject.transform.position = originalPos;
         GetComponent<Animator>().SetFloat("Speed", speed);
+        //make the trail of yarn "disappear"
         foreach (YarnTrail yt in trail.GetComponentsInChildren<YarnTrail>())
         {
             yt.resetTrail();
@@ -53,6 +55,7 @@ public class movetowards : MonoBehaviour
 
     void OnMouseDown()
     {
+        //Use the hint and reset
         hintused = "y";
         hintready = "n";
         ResetPosition();

@@ -22,12 +22,15 @@ public class clickcontrol : MonoBehaviour {
 	void Update () {
 		if(movetowards.hintused == "y")
         {
-            randNumb = Random.Range(1, 7);
+            //Tim S. - I changed the range from 7 to 8.
+            //          This way the computer will use the number 7, instead of only one through six.
+            randNumb = Random.Range(1, 8);
             if((gameObject.name == "Bunny1") && (randNumb == 1))
             {
                 var clone = Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
                 movetowards.hintused = "n";
-                Destroy(clone);
+                //Tim S. - Destroy(clone) causes an error because "Destroying the transform compnent is not allowed
+                //          destroyClone() works best, so we don't need the Destroy(clone)
             }
             if ((gameObject.name == "Cow1") && (randNumb == 2))
             {

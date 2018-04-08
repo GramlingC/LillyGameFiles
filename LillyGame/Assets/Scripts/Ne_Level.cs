@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ne_Level : MonoBehaviour {
     
@@ -24,12 +25,14 @@ public class Ne_Level : MonoBehaviour {
     public void next()
     {
         LevelUnlocked.NextLevel();
-        Application.LoadLevel("Level_Select");
+        //Tim S. - I changed Application.LoadLevel to SceneManager.LoadScene
+        SceneManager.LoadScene("Level_Select");
     }
     public void _level()
     {
         the_level(t);
-        Application.LoadLevel(num_level);
+        //Tim S. - I changed Application.LoadLevel to SceneManager.LoadScene
+        SceneManager.LoadScene(num_level);
         
     }
     void OnTriggerEnter2D(Collider2D other)

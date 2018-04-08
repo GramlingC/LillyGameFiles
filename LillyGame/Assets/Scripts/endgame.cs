@@ -15,7 +15,7 @@ public class endgame : MonoBehaviour {
         //End Game if all tagged objects are gone
         if (GameObject.FindGameObjectsWithTag("TargetObject").Length <= 0)
         {
-            //SceneManager.LoadScene("StartLevel");
+            //activate the "Next Level" prompt
             nextlevel_panel.SetActive(true);
 
 
