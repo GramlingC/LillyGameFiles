@@ -2735,7 +2735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1774291205}
-  speed: 50
+  speed: 1
   trail: {fileID: 622145912}
 --- !u!65 &581078575
 BoxCollider:
