@@ -425,7 +425,7 @@ MonoBehaviour:
   successclick: {fileID: 1145595185}
   hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
-  randNumb: 0
+  TargetObjects: []
 --- !u!61 &31207318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1228,7 +1228,7 @@ MonoBehaviour:
   successclick: {fileID: 1145595185}
   hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
-  randNumb: 0
+  TargetObjects: []
 --- !u!61 &198970806
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1667,7 +1667,7 @@ MonoBehaviour:
   successclick: {fileID: 1145595185}
   hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
-  randNumb: 0
+  TargetObjects: []
 --- !u!61 &286854628
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2735,7 +2735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1774291205}
-  speed: 1
+  speed: 50
   trail: {fileID: 622145912}
 --- !u!65 &581078575
 BoxCollider:
@@ -4253,7 +4253,7 @@ MonoBehaviour:
   successclick: {fileID: 1145595185}
   hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
-  randNumb: 0
+  TargetObjects: []
 --- !u!61 &906067007
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5340,7 +5340,7 @@ MonoBehaviour:
   successclick: {fileID: 1145595185}
   hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
-  randNumb: 0
+  TargetObjects: []
 --- !u!61 &1331849005
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6315,7 +6315,7 @@ MonoBehaviour:
   successclick: {fileID: 1145595185}
   hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
-  randNumb: 0
+  TargetObjects: []
 --- !u!61 &1574656947
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11028,7 +11028,7 @@ MonoBehaviour:
   successclick: {fileID: 1145595185}
   hintsparkling: {fileID: 1797978077}
   AudioSource: {fileID: 4686471}
-  randNumb: 0
+  TargetObjects: []
 --- !u!61 &1873674522
 BoxCollider2D:
   m_ObjectHideFlags: 0
