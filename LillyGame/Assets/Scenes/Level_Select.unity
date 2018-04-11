@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next_Level: {fileID: 0}
-  num_level: Level2_test
+  num_level: Level2BarnInside
   t: 2
 --- !u!1 &25660503
 GameObject:

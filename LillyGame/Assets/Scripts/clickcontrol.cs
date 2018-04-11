@@ -29,7 +29,7 @@ public class clickcontrol : MonoBehaviour {
             //Randomly selects one of the game objects from the array.
             if (gameObject == TargetObjects[Random.Range(0, TargetObjects.Length)])
                 {
-                var clone = Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
+                Instantiate(hintsparkling, gameObject.transform.position, hintsparkling.rotation);
                 movetowards.hintused = "n";
             }
         }
