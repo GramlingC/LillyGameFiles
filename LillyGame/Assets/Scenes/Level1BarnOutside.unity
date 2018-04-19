@@ -1340,6 +1340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextlevel_panel: {fileID: 1430964642}
+  lillySprite: {fileID: 1054681067}
 --- !u!1 &246047914
 GameObject:
   m_ObjectHideFlags: 0
@@ -5118,6 +5119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea5f7254ceadb1d478e922776bd83dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Lilly: {fileID: 21300000, guid: 136f1515dc931ea45a20cd4add3bd897, type: 3}
+  Lilly2: {fileID: 21300000, guid: b12230fa22ad9384fb57c0615d3e683c, type: 3}
+  Lilly3: {fileID: 21300000, guid: ccbfdc02afe537241aaa286135d3d3ab, type: 3}
 --- !u!1 &1082953110
 GameObject:
   m_ObjectHideFlags: 0

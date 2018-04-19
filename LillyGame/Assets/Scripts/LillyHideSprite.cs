@@ -5,11 +5,15 @@ using UnityEngine;
 public class LillyHideSprite : MonoBehaviour {
 
     SpriteRenderer LillySprite;
+    public Sprite Lilly, Lilly2, Lilly3;
+    public int sprite;
 
 	// Use this for initialization
 	void Start () {
-		LillySprite = GetComponent<SpriteRenderer>();
+        sprite = PlayerPrefs.GetInt("Lilly", sprite);
+        LillySprite = GetComponent<SpriteRenderer>();
         LillySprite.enabled = false;
+        ChangeSprite(); //start the game with the chosen sprite
     }
 	
 	// Update is called once per frame
@@ -22,5 +26,25 @@ public class LillyHideSprite : MonoBehaviour {
         {
             LillySprite.enabled = false;
         }
-	}
+
+    }
+
+    public void ChangeSprite () //change sprite to reference placed in game editor
+    {
+
+        if (PlayerPrefs.GetInt("Lilly", sprite) == 1)
+        {
+            LillySprite.sprite = Lilly;
+        }
+
+        if (PlayerPrefs.GetInt("Lilly", sprite) == 2)
+        {
+            LillySprite.sprite = Lilly2;
+        }
+
+        if (PlayerPrefs.GetInt("Lilly", sprite) == 3)
+        {
+            LillySprite.sprite = Lilly3;
+        }
+    }
 }

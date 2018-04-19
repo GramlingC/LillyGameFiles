@@ -21,6 +21,7 @@ public class movetowards : MonoBehaviour
         m_Collider = GetComponent<Collider>();
         m_Collider.enabled = !m_Collider.enabled;
         GetComponent<Animator>().SetFloat("Speed", speed);
+        hintready = "n";
     }
 
     // Update is called once per frame

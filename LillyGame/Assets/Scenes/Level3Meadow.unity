@@ -367,6 +367,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea5f7254ceadb1d478e922776bd83dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Lilly: {fileID: 21300000, guid: 136f1515dc931ea45a20cd4add3bd897, type: 3}
+  Lilly2: {fileID: 21300000, guid: b12230fa22ad9384fb57c0615d3e683c, type: 3}
+  Lilly3: {fileID: 21300000, guid: cbdcea89fc6370c44be0d355ca968553, type: 3}
 --- !u!212 &91016854
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3413,6 +3416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextlevel_panel: {fileID: 216252975}
+  lillySprite: {fileID: 91016853}
 --- !u!1 &668631233
 GameObject:
   m_ObjectHideFlags: 0
@@ -3778,7 +3782,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 688503548}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.38, y: -0.4, z: 0}
+  m_LocalPosition: {x: -16.38, y: -0.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1936996202}
