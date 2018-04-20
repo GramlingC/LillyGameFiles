@@ -5,7 +5,10 @@ licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Lilly: {fileID: 21300000, guid: 136f1515dc931ea45a20cd4add3bd897, type: 3}
+  - Lilly2: {fileID: 21300000, guid: b12230fa22ad9384fb57c0615d3e683c, type: 3}
+  - Lilly3: {fileID: 21300000, guid: ccbfdc02afe537241aaa286135d3d3ab, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
