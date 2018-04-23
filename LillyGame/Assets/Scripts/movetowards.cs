@@ -12,7 +12,7 @@ public class movetowards : MonoBehaviour
     public static string hintready = "n";
     public static string hintused = "n";
     Collider m_Collider;
-    public int times = 0;
+    public static int times = 0;
 
     // Use this for initialization
     void Start()
