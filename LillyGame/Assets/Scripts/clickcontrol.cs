@@ -34,13 +34,14 @@ public class clickcontrol : MonoBehaviour {
             }
         }
         destroyClone();
-	}
+
+    }
     void destroyClone()
     {
         Destroy(GameObject.Find("ring(Clone)"),2f);
 
     }
-
+   
     void OnMouseDown()
     {
         nameofobj = gameObject.name;

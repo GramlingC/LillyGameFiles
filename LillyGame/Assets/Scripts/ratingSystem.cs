@@ -5,32 +5,35 @@ using UnityEngine;
 public class ratingSystem : MonoBehaviour {
 
 
-    public GameObject Star1;
-    public GameObject Star2;
-    public GameObject Star3;
+    public  GameObject Star1;
+    public  GameObject Star2;
+    public  GameObject Star3;
 
     // Use this for initialization
-    void Start () {
-       /* Star1.GetComponent<Renderer>().enabled = false;
-        Star2.GetComponent<Renderer>().enabled = false;
-        Star3.GetComponent<Renderer>().enabled = false;
-        */
+    void Start ()
+    {
+
     }
 	
 	// Update is called once per frame
-	void Update () {
-		/*if (movetowards.times <= 5)
-        {
-            Star1.GetComponent<Renderer>().enabled = true;
-        }
-        if (movetowards.times <= 3)
-        {
-            Star2.GetComponent<Renderer>().enabled = true;
-        }
-        if (movetowards.times <= 1)
-        {
-            Star3.GetComponent<Renderer>().enabled = true;
-        }
-        */
+	void Update ()
+    {
+        ratingStar();
     }
+    void ratingStar()
+    {
+        if (movetowards.times >= 6)
+        {
+            Star1.SetActive(false);
+        }
+        if (movetowards.times >= 4)
+        {
+            Star2.SetActive(false);
+        }
+        if (movetowards.times >= 2)
+        {
+            Star3.SetActive(false);
+        }
+    }
+    
 }
