@@ -23,6 +23,7 @@ public class endgame : MonoBehaviour {
         }
 
         //Change lilly sprite based on 1, 2, or 3 key
+        //Can delete
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             lillySprite.sprite = 1;

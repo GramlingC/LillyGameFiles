@@ -17,4 +17,13 @@ public class menuScript : MonoBehaviour
         Debug.Log("Quit!");
         Application.Quit();
     }
+
+    public void SkinsScene()
+    {
+        SceneManager.LoadScene("Skins_Select");
+    }
+    public void LevelSelect()
+    {
+        SceneManager.LoadScene("Level_Select");
+    }
 }

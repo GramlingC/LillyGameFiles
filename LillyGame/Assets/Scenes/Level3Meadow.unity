@@ -4409,7 +4409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1826991652}
-  speed: 10
+  speed: 1
   trail: {fileID: 407835163}
 --- !u!95 &784276207
 Animator:
