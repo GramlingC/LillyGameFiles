@@ -29,6 +29,7 @@ public class LillyHideSprite : MonoBehaviour {
 
     }
 
+
     public void ChangeSprite () //change sprite to reference placed in game editor
     {
 
