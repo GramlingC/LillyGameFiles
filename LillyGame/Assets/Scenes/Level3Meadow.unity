@@ -4715,6 +4715,7 @@ MonoBehaviour:
   Star1: {fileID: 1047652330}
   Star2: {fileID: 1804823286}
   Star3: {fileID: 843727593}
+  levelNumber: 3
 --- !u!114 &843727596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6048,6 +6049,7 @@ MonoBehaviour:
   Star1: {fileID: 1047652330}
   Star2: {fileID: 1047652330}
   Star3: {fileID: 843727593}
+  levelNumber: 3
 --- !u!114 &1047652332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8954,7 +8956,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -285022211
+  randomSeed: -1135258209
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -12830,6 +12832,7 @@ MonoBehaviour:
   Star1: {fileID: 1804823286}
   Star2: {fileID: 1804823286}
   Star3: {fileID: 843727593}
+  levelNumber: 3
 --- !u!114 &1804823288
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -3651,6 +3651,7 @@ MonoBehaviour:
   Star1: {fileID: 892595875}
   Star2: {fileID: 619443738}
   Star3: {fileID: 675016865}
+  levelNumber: 1
 --- !u!114 &619443740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3938,6 +3939,7 @@ MonoBehaviour:
   Star1: {fileID: 892595875}
   Star2: {fileID: 619443738}
   Star3: {fileID: 675016865}
+  levelNumber: 1
 --- !u!114 &675016868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4951,6 +4953,7 @@ MonoBehaviour:
   Star1: {fileID: 892595875}
   Star2: {fileID: 619443738}
   Star3: {fileID: 675016865}
+  levelNumber: 1
 --- !u!114 &892595877
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -17,12 +17,12 @@ public class movetowards : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //Remember where it started
-        originalPos = gameObject.transform.position;
+        originalPos = gameObject.transform.position;//Remember where it started
         m_Collider = GetComponent<Collider>();
         m_Collider.enabled = !m_Collider.enabled;
         GetComponent<Animator>().SetFloat("Speed", speed);
         hintready = "n";
+        times = 0;
     }
 
     // Update is called once per frame

@@ -47,6 +47,7 @@ public class LevelUnlocked : MonoBehaviour {
     public void Reset()
     {
         level = 1;
+        PlayerPrefs.DeleteAll();
         PlayerPrefs.SetInt("level", level);
     }
 

@@ -145,6 +145,7 @@ MonoBehaviour:
   Star1: {fileID: 5735442}
   Star2: {fileID: 1041381362}
   Star3: {fileID: 2043581745}
+  levelNumber: 2
 --- !u!114 &5735444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5715,6 +5716,7 @@ MonoBehaviour:
   Star1: {fileID: 1041381362}
   Star2: {fileID: 5735442}
   Star3: {fileID: 2043581745}
+  levelNumber: 2
 --- !u!114 &1041381364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13869,6 +13871,7 @@ MonoBehaviour:
   Star1: {fileID: 5735442}
   Star2: {fileID: 1041381362}
   Star3: {fileID: 2043581745}
+  levelNumber: 2
 --- !u!114 &2043581748
 MonoBehaviour:
   m_ObjectHideFlags: 0
