@@ -42,5 +42,5 @@ public class ratingSystem : MonoBehaviour {
             PlayerPrefs.SetInt("rating_" + levelNumber, 4);
         }
     }
-    
+
 }

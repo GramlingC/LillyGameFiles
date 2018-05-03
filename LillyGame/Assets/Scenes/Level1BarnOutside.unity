@@ -5991,8 +5991,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: -25}
-  m_SizeDelta: {x: 599.2, y: 86.4}
+  m_AnchoredPosition: {x: 14, y: -21.6}
+  m_SizeDelta: {x: 599.2, y: 182.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1000482139
 MonoBehaviour:
@@ -6020,13 +6020,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 5
     m_MaxSize: 50
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fun fact of an animal...
+  m_Text: All cows are missing their top front teeth. How many teeth do you have?
 --- !u!222 &1000482140
 CanvasRenderer:
   m_ObjectHideFlags: 0
