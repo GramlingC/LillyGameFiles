@@ -3977,6 +3977,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &729956930
 GameObject:
   m_ObjectHideFlags: 0
@@ -4053,6 +4054,8 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 729956930}
+=======
+>>>>>>> parent of edf5b35... Added facts.
 =======
 >>>>>>> parent of edf5b35... Added facts.
 --- !u!1 &740427086
@@ -13034,8 +13037,12 @@ RectTransform:
   m_Children:
   - {fileID: 1859614515}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 729956931}
   - {fileID: 1121141541}
+=======
+  - {fileID: 1978937833}
+>>>>>>> parent of edf5b35... Added facts.
 =======
   - {fileID: 1978937833}
 >>>>>>> parent of edf5b35... Added facts.
