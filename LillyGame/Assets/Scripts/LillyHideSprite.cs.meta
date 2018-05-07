@@ -6,8 +6,8 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - Lilly: {fileID: 21300000, guid: 136f1515dc931ea45a20cd4add3bd897, type: 3}
-  - Lilly2: {fileID: 21300000, guid: b12230fa22ad9384fb57c0615d3e683c, type: 3}
+  - Lilly: {fileID: 21300000, guid: 1812ee72bd98080468f40126a5d8a11a, type: 3}
+  - Lilly2: {fileID: 21300000, guid: a727008a606ea7a47bd6e9a825dd138e, type: 3}
   - Lilly3: {fileID: 21300000, guid: ccbfdc02afe537241aaa286135d3d3ab, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
