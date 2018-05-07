@@ -11,16 +11,6 @@ public class levelMenuRatings : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-        SetRatings();
-    }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    public void SetRatings()
-    {
         Star3.SetActive(false);
         Star2.SetActive(false);
         Star1.SetActive(false);
@@ -52,5 +42,9 @@ public class levelMenuRatings : MonoBehaviour {
             Star3.SetActive(true);
         }
     }
-
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
 }
