@@ -48,6 +48,10 @@ public class LevelUnlocked : MonoBehaviour {
     {
         level = 1;
         PlayerPrefs.SetInt("level", level);
+        for (int i = 1; i <= 3; i++)
+        {
+            PlayerPrefs.SetInt("rating_" + i, 1);
+        }
     }
 
    

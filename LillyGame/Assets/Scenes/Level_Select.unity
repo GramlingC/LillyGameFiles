@@ -2378,7 +2378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Star1: {fileID: 1809494558}
   Star2: {fileID: 641106467}
-  Star3: {fileID: 641106467}
+  Star3: {fileID: 1900265283}
   levelNumber: 3
 --- !u!114 &641106469
 MonoBehaviour:
@@ -5251,7 +5251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Star1: {fileID: 1809494558}
   Star2: {fileID: 641106467}
-  Star3: {fileID: 641106467}
+  Star3: {fileID: 1900265283}
   levelNumber: 3
 --- !u!114 &1809494560
 MonoBehaviour:
@@ -5490,7 +5490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Star1: {fileID: 1809494558}
-  Star2: {fileID: 1900265283}
+  Star2: {fileID: 641106467}
   Star3: {fileID: 1900265283}
   levelNumber: 3
 --- !u!114 &1900265286
@@ -5999,7 +5999,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Star1: {fileID: 1723162195}
   Star2: {fileID: 2010220811}
-  Star3: {fileID: 2010220811}
+  Star3: {fileID: 1777809912}
   levelNumber: 2
 --- !u!114 &2010220813
 MonoBehaviour:

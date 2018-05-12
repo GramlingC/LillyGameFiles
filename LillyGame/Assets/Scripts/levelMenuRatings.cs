@@ -11,12 +11,11 @@ public class levelMenuRatings : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-        SetRatings();
     }
 	
 	// Update is called once per frame
 	void Update () {
-		
+        SetRatings();
 	}
 
     public void SetRatings()
@@ -25,32 +24,36 @@ public class levelMenuRatings : MonoBehaviour {
         Star2.SetActive(false);
         Star1.SetActive(false);
 
+
         rating = PlayerPrefs.GetInt("rating_" + levelNumber);
 
-        if (rating == 1)
+        switch (rating)
         {
-            Star3.SetActive(false);
-            Star2.SetActive(false);
-            Star1.SetActive(false);
+            case 1:
+                Star3.SetActive(false);
+                Star2.SetActive(false);
+                Star1.SetActive(false);
+                break;
+
+            case 2:
+                Star3.SetActive(false);
+                Star2.SetActive(false);
+                Star1.SetActive(true);
+                break;
+
+            case 3:
+                Star3.SetActive(false);
+                Star2.SetActive(true);
+                Star1.SetActive(true);
+                break;
+
+            case 4:
+                Star1.SetActive(true);
+                Star2.SetActive(true);
+                Star3.SetActive(true);
+                break;
         }
-        if (rating == 2)
-        {
-            Star3.SetActive(false);
-            Star2.SetActive(false);
-            Star1.SetActive(true);
-        }
-        if (rating == 3)
-        {
-            Star3.SetActive(false);
-            Star2.SetActive(true);
-            Star1.SetActive(true);
-        }
-        if (rating == 4)
-        {
-            Star1.SetActive(true);
-            Star2.SetActive(true);
-            Star3.SetActive(true);
-        }
+       
     }
 
 }
