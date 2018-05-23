@@ -3983,6 +3983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextlevel_panel: {fileID: 216252975}
   lillySprite: {fileID: 1053576282}
+  levelNumber: 2
 --- !u!1 &667262054
 GameObject:
   m_ObjectHideFlags: 0

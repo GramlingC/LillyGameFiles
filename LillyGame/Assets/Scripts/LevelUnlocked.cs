@@ -50,7 +50,8 @@ public class LevelUnlocked : MonoBehaviour {
         PlayerPrefs.SetInt("level", level);
         for (int i = 1; i <= 3; i++)
         {
-            PlayerPrefs.SetInt("rating_" + i, 1);
+            PlayerPrefs.SetInt("rating_" + i, 1); // Set level-select stars to blank.
+            PlayerPrefs.SetInt("rewardAnimal_" + i, 0); //Set main menu reward animals to blank.
         }
     }
 
