@@ -33,7 +33,7 @@ public class LevelUnlocked : MonoBehaviour {
         }
         
 	}
-    public static void NextLevel()
+    public static void Next_Level()
     {
         if (level == Ne_Level.thelevel)
         {
@@ -48,11 +48,11 @@ public class LevelUnlocked : MonoBehaviour {
     {
         level = 1;
         PlayerPrefs.SetInt("level", level);
-        for (int i = 1; i <= 3; i++)
+        for (int i = 1; i <= 10; i++)
         {
             PlayerPrefs.SetInt("rating_" + i, 1); // Set level-select stars to blank.
             PlayerPrefs.SetInt("rewardAnimal_" + i, 0); //Set main menu reward animals to blank.
-        }
+       }
     }
 
    

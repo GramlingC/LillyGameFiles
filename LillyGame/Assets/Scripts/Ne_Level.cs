@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Ne_Level : MonoBehaviour {
     
     public GameObject Next_Level;
+    public int max_level;
     public string num_level;
     public static int thelevel;
     public int t;
@@ -16,7 +17,16 @@ public class Ne_Level : MonoBehaviour {
        
 	}
 	
-	
+	void Update()
+    {
+        for (int i =1; i < max_level; i++)
+        {
+            if (LevelUnlocked.level == i)
+            {
+                Next_Level.SetActive(true);
+            }
+        }
+    }
     public static void the_level(int t)
     {
         thelevel = t;
@@ -24,7 +34,7 @@ public class Ne_Level : MonoBehaviour {
     }
     public void next()
     {
-        LevelUnlocked.NextLevel();
+        LevelUnlocked.Next_Level();
         //Tim S. - I changed Application.LoadLevel to SceneManager.LoadScene
         SceneManager.LoadScene("Level_Select");
     }
@@ -35,9 +45,9 @@ public class Ne_Level : MonoBehaviour {
         SceneManager.LoadScene(num_level);
         
     }
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        Next_Level.SetActive(true);
-    }
+    //void OnTriggerEnter2D(Collider2D other)
+    //{
+     //   Next_Level.SetActive(true);
+   // }
     
 }

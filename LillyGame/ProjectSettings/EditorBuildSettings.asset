@@ -23,6 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level3Meadow.unity
     guid: 631a7bc043e1b0f41a78885568aa8765
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Level4Forest.unity
+    guid: 7abc167b9dd2c19459e7c27867c82f11
