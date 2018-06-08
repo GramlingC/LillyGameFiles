@@ -7,7 +7,7 @@ public class rewardAnimals : MonoBehaviour {
     public int levelNumber;//Allows different values for each level's rating
     SpriteRenderer RewardSprite;
     int reward;
-
+    
 
 
     // Use this for initialization

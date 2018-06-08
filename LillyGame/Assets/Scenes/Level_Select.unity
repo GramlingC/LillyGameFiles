@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 19762046}
   - component: {fileID: 19762045}
   - component: {fileID: 19762048}
+  - component: {fileID: 19762049}
   m_Layer: 5
   m_Name: level2
   m_TagString: Untagged
@@ -252,6 +253,19 @@ MonoBehaviour:
   max_level: 0
   num_level: Level2BarnInside
   t: 2
+--- !u!114 &19762049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 19762043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8d97dfc650dad4c84da2e8f70b9e76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level_button: {fileID: 19762045}
+  levelNumber: 1
 --- !u!1 &25660503
 GameObject:
   m_ObjectHideFlags: 0
@@ -2081,6 +2095,7 @@ GameObject:
   - component: {fileID: 414134939}
   - component: {fileID: 414134938}
   - component: {fileID: 414134941}
+  - component: {fileID: 414134942}
   m_Layer: 5
   m_Name: level4
   m_TagString: Untagged
@@ -2208,6 +2223,19 @@ MonoBehaviour:
   max_level: 0
   num_level: Level4Forest
   t: 4
+--- !u!114 &414134942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 414134936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8d97dfc650dad4c84da2e8f70b9e76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level_button: {fileID: 0}
+  levelNumber: 3
 --- !u!1 &436206220
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,6 +2248,7 @@ GameObject:
   - component: {fileID: 436206223}
   - component: {fileID: 436206222}
   - component: {fileID: 436206225}
+  - component: {fileID: 436206226}
   m_Layer: 5
   m_Name: level5
   m_TagString: Untagged
@@ -2347,6 +2376,19 @@ MonoBehaviour:
   max_level: 0
   num_level: Level5
   t: 5
+--- !u!114 &436206226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 436206220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8d97dfc650dad4c84da2e8f70b9e76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level_button: {fileID: 0}
+  levelNumber: 4
 --- !u!1 &452786278
 GameObject:
   m_ObjectHideFlags: 0
@@ -7816,7 +7858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a48ad368817cb14469a053e5df6ab59d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Next_Level: {fileID: 0}
+  Next_Level: {fileID: 19762043}
   max_level: 0
   num_level: Level1BarnOutside
   t: 1
@@ -9844,6 +9886,7 @@ GameObject:
   - component: {fileID: 2114181515}
   - component: {fileID: 2114181514}
   - component: {fileID: 2114181517}
+  - component: {fileID: 2114181518}
   m_Layer: 5
   m_Name: level3
   m_TagString: Untagged
@@ -9971,6 +10014,19 @@ MonoBehaviour:
   max_level: 0
   num_level: Level3Meadow
   t: 3
+--- !u!114 &2114181518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2114181512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8d97dfc650dad4c84da2e8f70b9e76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level_button: {fileID: 2114181514}
+  levelNumber: 2
 --- !u!1 &2137265225
 GameObject:
   m_ObjectHideFlags: 0

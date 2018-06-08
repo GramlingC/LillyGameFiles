@@ -6,7 +6,9 @@ public class LevelUnlocked : MonoBehaviour {
     public static int level=1;
     public int max_level;
     public GameObject[] levelUnlocked;
-  
+
+
+    
 	// Use this for initialization
 	void Start () {
         level = PlayerPrefs.GetInt("level", level);
