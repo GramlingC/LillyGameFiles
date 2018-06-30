@@ -5,6 +5,7 @@ using UnityEngine;
 public class ChooseLillySprite : MonoBehaviour {
     public LillyHideSprite lillySprite; //gameobject with script must be referenced in editor
     public int spriteChoice;
+    public AudioSource AudioSource; 
 
     // Use this for initialization
     void Start () {
@@ -22,5 +23,7 @@ public class ChooseLillySprite : MonoBehaviour {
         lillySprite.sprite = spriteChoice;
         PlayerPrefs.SetInt("Lilly", lillySprite.sprite);
         lillySprite.ChangeSprite();
+        AudioSource.Play();
+
     }
 }
