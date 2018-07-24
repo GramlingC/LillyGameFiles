@@ -439,7 +439,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.008995533, y: -0.04497823}
+  m_Offset: {x: 0.08055055, y: -0.056171536}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -450,7 +450,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3322728, y: 1.4982543}
+  m_Size: {x: 1.5113649, y: 1.6997333}
   m_EdgeRadius: 0
 --- !u!1 &38002490
 GameObject:
@@ -1352,7 +1352,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.018232763, y: 0.0026048422}
+  m_Offset: {x: 0.022004962, y: -0.016256928}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1363,7 +1363,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.93634987, y: 0.7001215}
+  m_Size: {x: 1.0796988, y: 0.87364924}
   m_EdgeRadius: 0
 --- !u!1 &217800621
 GameObject:
@@ -2023,7 +2023,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.004327804, y: 0.032457}
+  m_Offset: {x: -0.0043275654, y: -0.03575015}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2034,7 +2034,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.63817304, y: 0.5278796}
+  m_Size: {x: 0.82574254, y: 0.6642939}
   m_EdgeRadius: 0
 --- !u!1 &289466686
 GameObject:
@@ -5458,7 +5458,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04104495, y: 0.011727214}
+  m_Offset: {x: -0.05156505, y: -0.021949053}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5469,7 +5469,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.072637, y: 2.1043632}
+  m_Size: {x: 2.257857, y: 2.3737745}
   m_EdgeRadius: 0
 --- !u!1 &918719557
 GameObject:
@@ -6142,7 +6142,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: All cows are missing their top front teeth. How many teeth do you have?
+  m_Text: 'All cows are missing their top front teeth. How many teeth do you have?
+
+    New Cat Unlocked!'
 --- !u!222 &1000482140
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7198,7 +7200,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0063917637, y: 0.031958282}
+  m_Offset: {x: -0.029044151, y: 0.01677154}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7209,7 +7211,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3719711, y: 0.3847533}
+  m_Size: {x: 1.6250834, y: 0.53662026}
   m_EdgeRadius: 0
 --- !u!1 &1335892769
 GameObject:
@@ -8616,7 +8618,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.07793343, y: 0.090922475}
+  m_Offset: {x: 0.07055056, y: -0.10275206}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8627,7 +8629,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7297184, y: 1.3754151}
+  m_Size: {x: 2.0266864, y: 1.7627642}
   m_EdgeRadius: 0
 --- !u!1 &1607130269
 GameObject:
@@ -10238,6 +10240,8 @@ MonoBehaviour:
   Lilly: {fileID: 21300000, guid: 1812ee72bd98080468f40126a5d8a11a, type: 3}
   Lilly2: {fileID: 21300000, guid: a727008a606ea7a47bd6e9a825dd138e, type: 3}
   Lilly3: {fileID: 21300000, guid: ccbfdc02afe537241aaa286135d3d3ab, type: 3}
+  Lilly4: {fileID: 0}
+  Lilly5: {fileID: 0}
   sprite: 0
 --- !u!212 &1859661805
 SpriteRenderer:
@@ -10400,7 +10404,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.050196707, y: 0.051844537}
+  m_Offset: {x: 0.027144074, y: -0.038117066}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10411,7 +10415,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0437534, y: 0.6825651}
+  m_Size: {x: 1.292722, y: 0.9884347}
   m_EdgeRadius: 0
 --- !u!1 &1891178840
 GameObject:

@@ -5,7 +5,7 @@ using UnityEngine;
 public class LillyHideSprite : MonoBehaviour {
 
     SpriteRenderer LillySprite;
-    public Sprite Lilly, Lilly2, Lilly3;
+    public Sprite Lilly, Lilly2, Lilly3, Lilly4, Lilly5;
     public int sprite;
 
 	// Use this for initialization
@@ -46,6 +46,14 @@ public class LillyHideSprite : MonoBehaviour {
         if (PlayerPrefs.GetInt("Lilly", sprite) == 3)
         {
             LillySprite.sprite = Lilly3;
+        }
+        if (PlayerPrefs.GetInt("Lilly", sprite) == 4)
+        {
+            LillySprite.sprite = Lilly4;
+        }
+        if (PlayerPrefs.GetInt("Lilly", sprite) == 5)
+        {
+            LillySprite.sprite = Lilly5;
         }
     }
 }
