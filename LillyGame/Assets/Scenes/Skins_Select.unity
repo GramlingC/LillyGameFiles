@@ -859,6 +859,7 @@ GameObject:
   - component: {fileID: 1284643033}
   - component: {fileID: 1284643031}
   - component: {fileID: 1284643032}
+  - component: {fileID: 1284643035}
   m_Layer: 0
   m_Name: Siamese_01
   m_TagString: Untagged
@@ -964,6 +965,22 @@ Transform:
   m_Father: {fileID: 517606933}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1284643035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1284643030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c536652dd90c9ff478f69fe379ee49f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Image: {fileID: 0}
+  useThisImage: 0
+  fadeIn: 0
+  fadeOnStart: 0
+  timeMultiplier: 0
 --- !u!1 &1433846252
 GameObject:
   m_ObjectHideFlags: 0
