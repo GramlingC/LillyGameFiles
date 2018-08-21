@@ -7,23 +7,23 @@ public class ChooseLillySprite : MonoBehaviour {
     public GameObject spriteOptions; //to reference self
     public int spriteChoice, levelNumber;//Allows different values for each level's rating
     public AudioSource AudioSource;
-    SpriteRenderer OptionSprite;
+    SpriteRenderer spriteRenderer;
     Collider2D m_Collider;
 
 
     // Use this for initialization
     void Start () {
-        OptionSprite = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         m_Collider = GetComponent<Collider2D>();
         m_Collider.enabled = false;
-        OptionSprite.enabled = false;
+        spriteRenderer.color = Color.black;
         PlayerPrefs.SetInt("rewardAnimal_0", 1);// Always start with default skin available
 
         //if player passed the level they get a new sprite option
         if (PlayerPrefs.GetInt("rewardAnimal_" + levelNumber) == 1)
         {
             m_Collider.enabled = true;
-            OptionSprite.enabled = true;
+            spriteRenderer.color = Color.white;
         }
     }
 	

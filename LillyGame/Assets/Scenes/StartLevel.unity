@@ -4400,6 +4400,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d190b2443efa47640aa20a8cef012671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_StartLevel: StartLevel
+  m_Level_Select: Level_Select
+  m_Skins_Select: Skins_Select
 --- !u!82 &1722694138
 AudioSource:
   m_ObjectHideFlags: 0
