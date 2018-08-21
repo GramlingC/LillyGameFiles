@@ -9185,10 +9185,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1231058792}
-<<<<<<< HEAD
-=======
   - {fileID: 50684085}
->>>>>>> 0173991504e3b3163fb19a45e0c051a7c2716f1f
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
