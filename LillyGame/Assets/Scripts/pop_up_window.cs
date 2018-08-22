@@ -7,10 +7,10 @@ public class pop_up_window : MonoBehaviour {
 
     public GameObject window_instruction;
     public GameObject window_credit;
-    public Button home;
+
     void Start()
     {
-        home = home.GetComponent<Button>();
+
     }
     public void Show_ins(string message){
 		//messageField.text = message;
