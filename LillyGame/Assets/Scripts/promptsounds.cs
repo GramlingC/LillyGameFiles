@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class promptsounds : MonoBehaviour {
 
-
-    public AudioSource AudioSource;
+    private AudioSource AudioSource;
 
     // Use this for initialization
     void Start () {
-		
+
+        AudioSource = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame

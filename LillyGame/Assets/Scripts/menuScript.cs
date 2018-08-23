@@ -20,6 +20,7 @@ public class menuScript : MonoBehaviour
 
     public void SkinsScene()
     {
+        movetowards.hintready = "n"; //Make sure gameobj of lilly is hidden
         SceneManager.LoadScene("Skins_Select");
     }
     public void LevelSelect()
