@@ -5,14 +5,18 @@ using UnityEngine;
 public class LillyHideSprite : MonoBehaviour {
 
     SpriteRenderer LillySprite;
+    BoxCollider2D Collider2D;
     public Sprite Lilly, Lilly2, Lilly3, Lilly4, Lilly5;
     public int sprite;
+    public movetowards movetowards;
 
 	// Use this for initialization
 	void Start () {
         sprite = PlayerPrefs.GetInt("Lilly", sprite);
         LillySprite = GetComponent<SpriteRenderer>();
         LillySprite.enabled = false;
+        Collider2D = GetComponent<BoxCollider2D>();
+        Collider2D.enabled = false;
         ChangeSprite(); //start the game with the chosen sprite
     }
 	
@@ -21,15 +25,20 @@ public class LillyHideSprite : MonoBehaviour {
 		if (movetowards.hintready == "y")
         {
             LillySprite.enabled = true;
+            Collider2D.enabled = true;
         }
         else
         {
             LillySprite.enabled = false;
+            Collider2D.enabled = false;
         }
 
     }
 
-
+    public void OnMouseDown()
+    {
+        movetowards.OnMouseDown();
+    }
     public void ChangeSprite () //change sprite to reference placed in game editor
     {
 

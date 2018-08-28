@@ -14,6 +14,12 @@ public class movetowards : MonoBehaviour
     Collider m_Collider;
     public static int times = 0;
 
+    private AudioSource hintSource;//Allows random clip to play from array
+    public AudioClip[] hintClips;
+    private AudioClip hint;
+    private int i; //So that AudioSource doesn't keep trying to play, because it's being called on Update
+
+
     // Use this for initialization
     void Start()
     {
@@ -23,6 +29,8 @@ public class movetowards : MonoBehaviour
         GetComponent<Animator>().SetFloat("Speed", speed);
         hintready = "n";
         times = 0;
+        hintSource = GetComponent<AudioSource>();
+        i = 0;
     }
 
     // Update is called once per frame
@@ -39,6 +47,16 @@ public class movetowards : MonoBehaviour
             GetComponent<Animator>().SetFloat("Speed", 0);
             m_Collider.enabled = true;
             hintready = "y";
+
+            if (i == 0)
+            {
+                //Play hints
+                int hintIndex = Random.Range(0, hintClips.Length); //Pick random int within array range
+                hint = hintClips[hintIndex]; // set audioclip variable
+                hintSource.clip = hint; // set audiosource
+                hintSource.Play(); //Play hint
+                i++;
+            }
         }
     }
 
@@ -55,7 +73,7 @@ public class movetowards : MonoBehaviour
 
     }
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         //Use the hint and reset
         hintused = "y";
@@ -63,6 +81,8 @@ public class movetowards : MonoBehaviour
         times += 1;
         ResetPosition();
         m_Collider.enabled = !m_Collider.enabled;
+        i = 0;
+
     }
 
 }
