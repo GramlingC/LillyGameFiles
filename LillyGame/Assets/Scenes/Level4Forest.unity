@@ -5414,8 +5414,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: -21.6}
-  m_SizeDelta: {x: 599.2, y: 182.5}
+  m_AnchoredPosition: {x: 7.1000004, y: -20.366}
+  m_SizeDelta: {x: 801.7, y: 240.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729956932
 MonoBehaviour:
@@ -5442,16 +5442,15 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 4
-    m_MaxSize: 50
+    m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Red squirrels store their nuts in piles on the ground but gray squirrels
-    bury their nuts. If a squirrel forgets where they buried a nut it can grow into
-    a tree. Where do you store your food?
+  m_Text: Owls are nocturnal. Nocturnal means that an animal is asleep during the
+    day and awake at night. Are you nocturnal?
 --- !u!222 &729956933
 CanvasRenderer:
   m_ObjectHideFlags: 0

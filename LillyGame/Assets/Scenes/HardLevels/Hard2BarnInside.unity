@@ -1518,7 +1518,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &216252976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12446,8 +12446,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: -21.6}
-  m_SizeDelta: {x: 599.2, y: 182.5}
+  m_AnchoredPosition: {x: -1.3, y: -20.366}
+  m_SizeDelta: {x: 868.3, y: 240.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2041878848
 MonoBehaviour:
@@ -12470,19 +12470,19 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 4
-    m_MaxSize: 50
-    m_Alignment: 1
+    m_MaxSize: 82
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Darwin's Bark Spider lives in Madagascar and makes the strongest spider
-    silk in the world. What types of spiders live in your hometown?
+  m_Text: Pigs have bad eyesight but an excellent sense of smell. Pigs are one of
+    the smartest domesticated animals in the world.
 --- !u!222 &2041878849
 CanvasRenderer:
   m_ObjectHideFlags: 0
