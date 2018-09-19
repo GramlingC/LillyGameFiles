@@ -1326,7 +1326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &216252976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2468,6 +2468,11 @@ Prefab:
         type: 2}
       propertyPath: ShapeModule.radiusThickness
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198876530184065624, guid: 0637311d9713bf14dbef818bdb6ac9e0,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
       objectReference: {fileID: 0}
     - target: {fileID: 198876530184065624, guid: 0637311d9713bf14dbef818bdb6ac9e0,
         type: 2}
@@ -5503,7 +5508,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 14, y: -21.6}
-  m_SizeDelta: {x: 599.2, y: 182.5}
+  m_SizeDelta: {x: 844.2, y: 182.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729956932
 MonoBehaviour:
@@ -5537,9 +5542,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Red squirrels store their nuts in piles on the ground but gray squirrels
-    bury their nuts. If a squirrel forgets where they buried a nut it can grow into
-    a tree. Where do you store your food?
+  m_Text: 'Did You Know: A group of cats is called a clowder?'
 --- !u!222 &729956933
 CanvasRenderer:
   m_ObjectHideFlags: 0

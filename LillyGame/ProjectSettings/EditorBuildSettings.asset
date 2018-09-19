@@ -29,3 +29,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level5Home.unity
     guid: ffdcf9749b0b7734ba48afc9ac4dc811
+  - enabled: 1
+    path: Assets/Scenes/HardLevels/Hard1BarnOutside.unity
+    guid: 24c3054e78d9d8f4fb7b11da452b27e0
+  - enabled: 1
+    path: Assets/Scenes/HardLevels/Hard2BarnInside.unity
+    guid: 4f4d52909f73bb148adb56428a6c5f6c
+  - enabled: 1
+    path: Assets/Scenes/HardLevels/Hard3Meadow.unity
+    guid: 4c0b1ac0f515c2846a5aafdf6460dd0b
+  - enabled: 1
+    path: Assets/Scenes/HardLevels/Hard4Forest.unity
+    guid: b00d1cdedf47f254888b7047ca109890
+  - enabled: 1
+    path: Assets/Scenes/HardLevels/Hard5Home.unity
+    guid: 158968faa21f8fa489fe88ab4ecabfe6
