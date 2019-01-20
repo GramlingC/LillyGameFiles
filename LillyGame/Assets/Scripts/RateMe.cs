@@ -53,7 +53,7 @@ public class RateMe : MonoBehaviour {
 
     public void Close()
     {
-        PlayerPrefs.SetInt("rateDelay", 4); //Sets the countdown so popup doesn't open 
+        PlayerPrefs.SetInt("rateDelay", 3); //Sets the countdown so popup doesn't open 
                                             //everytime the object is started
         rateObject.SetActive(false);
     }

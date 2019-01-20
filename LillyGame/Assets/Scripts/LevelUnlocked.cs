@@ -6,11 +6,13 @@ public class LevelUnlocked : MonoBehaviour {
     public static int level=1;
     public int max_level;
     public GameObject[] levelUnlocked;
+    public GameObject ResetCheckPanel;
 
 
     
 	// Use this for initialization
 	void Start () {
+        ResetCheckPanel.SetActive(false);
         level = PlayerPrefs.GetInt("level", level);
 	}
 	
@@ -46,6 +48,10 @@ public class LevelUnlocked : MonoBehaviour {
        
        
     }
+    public void ResetCheck()
+    {
+        ResetCheckPanel.SetActive(true);
+    }
     public void Reset()
     {
         level = 1;
@@ -55,7 +61,11 @@ public class LevelUnlocked : MonoBehaviour {
             PlayerPrefs.SetInt("rating_" + i, 1); // Set level-select stars to blank.
             PlayerPrefs.SetInt("rewardAnimal_" + i, 0); //Set main menu reward animals to blank.
        }
+        PlayerPrefs.SetInt("hasSeenInfoPanel", 0);
+        PlayerPrefs.SetInt("hasSeenInfoPanel2", 0);
+        PlayerPrefs.SetInt("hasSeenInfoPanel3", 0);
+        PlayerPrefs.SetInt("Lilly", 1); //Set Lilly Sprite to default
     }
 
-   
+
 }

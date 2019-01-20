@@ -8,6 +8,10 @@ public class homePage : MonoBehaviour {
 	// Use this for initialization
     public void home_page()
     {
+        SceneManager.LoadScene("Level_Select");
+    }
+    public void LoadTitleScreen()
+    {
         SceneManager.LoadScene("StartLevel");
     }
 }
