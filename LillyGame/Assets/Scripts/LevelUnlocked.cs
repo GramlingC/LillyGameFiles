@@ -64,6 +64,7 @@ public class LevelUnlocked : MonoBehaviour {
         PlayerPrefs.SetInt("hasSeenInfoPanel", 0);
         PlayerPrefs.SetInt("hasSeenInfoPanel2", 0);
         PlayerPrefs.SetInt("hasSeenInfoPanel3", 0);
+        PlayerPrefs.SetInt("rateDelay", 0);
         PlayerPrefs.SetInt("Lilly", 1); //Set Lilly Sprite to default
     }
 

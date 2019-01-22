@@ -4164,7 +4164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextlevel_panel: {fileID: 216252975}
   lillySprite: {fileID: 1053576282}
-  levelNumber: 2
+  levelNumber: 7
   introClips:
   - {fileID: 8300000, guid: 3c796ee52ccdaad48b7a1427bec5fc0e, type: 3}
   - {fileID: 8300000, guid: e9078ebeb9c83e643a58c5886cfd42e1, type: 3}
@@ -12469,9 +12469,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 55
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 300
     m_Alignment: 4

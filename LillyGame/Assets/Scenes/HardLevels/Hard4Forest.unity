@@ -139,7 +139,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 780ac61a2b20c4a4f988aa4ff0fd6bb9, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4540,7 +4540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextlevel_panel: {fileID: 216252975}
   lillySprite: {fileID: 259647920}
-  levelNumber: 4
+  levelNumber: 9
   introClips:
   - {fileID: 8300000, guid: 1344fcbac08035a48926998669c1b18a, type: 3}
   - {fileID: 8300000, guid: 5bee587df58fb8e43a0198c3581505ad, type: 3}
@@ -5433,9 +5433,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 55
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 100
     m_Alignment: 4
@@ -7727,7 +7727,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: df5b6aa23cbd24a43ac1ae50cd71274f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0

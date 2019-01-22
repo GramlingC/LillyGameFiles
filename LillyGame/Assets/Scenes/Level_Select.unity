@@ -173,7 +173,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 19762043}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -120.82605, y: 66.95839, z: 0}
+  m_LocalPosition: {x: -120.899994, y: 67, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_Children:
   - {fileID: 339061190}
@@ -436,7 +436,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 29360673}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8260498, y: -73.04161, z: 0}
+  m_LocalPosition: {x: -0.8999939, y: -73, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_Children:
   - {fileID: 2109260009}
@@ -914,7 +914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 100906382}
   - component: {fileID: 100906383}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: mouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1003,7 +1003,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 104529870}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 57.399994, y: -61.999985, z: 0}
+  m_LocalPosition: {x: 57.399994, y: -62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1734355529}
@@ -1674,7 +1674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 313719818}
   - component: {fileID: 313719819}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: beetle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1962,9 +1962,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Close
-        m_Mode: 1
+      - m_Target: {fileID: 8204574}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2140,17 +2140,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 342211715}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0000038146973, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -66, y: 51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1150893681}
   m_Father: {fileID: 1988609622}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000038146973, y: 0.0000009536743}
+  m_AnchoredPosition: {x: -66, y: 51}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &342211717
@@ -2192,7 +2192,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 414134936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 119.17395, y: 66.95839, z: 0}
+  m_LocalPosition: {x: 119.100006, y: 67, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_Children:
   - {fileID: 925310569}
@@ -2345,7 +2345,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 436206220}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 239.17395, y: 66.95839, z: 0}
+  m_LocalPosition: {x: 239.1, y: 67, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_Children:
   - {fileID: 212017301}
@@ -2750,7 +2750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 577749615}
   - component: {fileID: 577749616}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: birdmama
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3281,7 +3281,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 616490063}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -163, y: -122, z: -4052.229}
+  m_LocalPosition: {x: -187, y: -115, z: -4052.229}
   m_LocalScale: {x: 45.02477, y: 45.02477, z: 45.02477}
   m_Children: []
   m_Father: {fileID: 623461522}
@@ -3501,7 +3501,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 623461521}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -58.899994, y: 0.80000305, z: 0}
+  m_LocalPosition: {x: -58.899994, y: -6.199997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1339004226}
@@ -3516,8 +3516,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -58.9, y: 0.79999995}
-  m_SizeDelta: {x: 607.3, y: 422.5}
+  m_AnchoredPosition: {x: -58.9, y: -6.2}
+  m_SizeDelta: {x: 607.3, y: 408.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &623461523
 MonoBehaviour:
@@ -3653,7 +3653,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 652774575}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 239.17395, y: -73.04161, z: 0}
+  m_LocalPosition: {x: 239.1, y: -73, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_Children:
   - {fileID: 584283951}
@@ -4259,7 +4259,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Thanks!
+  m_Text: Okay!
 --- !u!222 &871054592
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4733,7 +4733,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1041963559}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -120.82605, y: -73.04161, z: 0}
+  m_LocalPosition: {x: -120.899994, y: -73, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_Children:
   - {fileID: 1257975672}
@@ -5422,8 +5422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: I think I heard some new friends join us at the barn! Why don't you head
-    back to the home screen and see if you can spot any new faces?
+  m_Text: Click on the HOME button to discover new friends!
 --- !u!222 &1148539203
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5454,7 +5453,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1150893680}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1065097973}
@@ -5469,8 +5468,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000019073, y: -0.0000038147}
-  m_SizeDelta: {x: 587.7, y: 316.2}
+  m_AnchoredPosition: {x: 0.0000019073, y: 5}
+  m_SizeDelta: {x: 587.7, y: 306.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1150893682
 MonoBehaviour:
@@ -5581,9 +5580,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Close
-        m_Mode: 1
+      - m_Target: {fileID: 1684438186}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5804,8 +5803,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: Congratulations on helping lilly find her way home! For an extra challenge,
-    try these harder, night-time levels!
+  m_Text: "Congratulations!\nYou helped Lilly find her way home. \nFor an extra challenge,
+    set your preferences to HARD and play through the adventure again."
 --- !u!222 &1277033185
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5837,7 +5836,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1308274741}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18, y: -130.7, z: 0}
+  m_LocalPosition: {x: 0, y: -130.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 871054590}
@@ -5846,7 +5845,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18, y: -130.7}
+  m_AnchoredPosition: {x: 0, y: -130.7}
   m_SizeDelta: {x: 229.8, y: 71.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1308274743
@@ -5888,9 +5887,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Close
-        m_Mode: 1
+      - m_Target: {fileID: 1028272921}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6091,7 +6090,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1339004225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.7999878, y: 69, z: 0}
+  m_LocalPosition: {x: -0.7999878, y: 77.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 623461522}
@@ -6099,8 +6098,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.79999995, y: 69}
-  m_SizeDelta: {x: 536.3, y: 168.5}
+  m_AnchoredPosition: {x: -0.79999995, y: 77.7}
+  m_SizeDelta: {x: 536.3, y: 185.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1339004227
 MonoBehaviour:
@@ -6134,8 +6133,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: Each time you complete one of the five main levels you unlock a new cat
-    friend to take with you on your adventure through Lilly's Day!
+  m_Text: Every time you complete a level you unlock a new cat avatar. Select a new
+    avatar from the Cats icon.
 --- !u!222 &1339004228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6151,7 +6150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1363245489}
   - component: {fileID: 1363245490}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Lily_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6760,7 +6759,7 @@ RectTransform:
   m_Children:
   - {fileID: 608010819}
   m_Father: {fileID: 1988609622}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6921,7 +6920,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1551135935}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -240.82605, y: -73.04161, z: 0}
+  m_LocalPosition: {x: -240.9, y: -73, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_Children:
   - {fileID: 1932030765}
@@ -7071,7 +7070,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1564487688}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 63, z: 0}
+  m_LocalPosition: {x: 7.5, y: 63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 608010819}
@@ -7079,8 +7078,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.5, y: 63}
-  m_SizeDelta: {x: 541.8, y: 143.3}
+  m_AnchoredPosition: {x: 7.5, y: 63}
+  m_SizeDelta: {x: 525.8, y: 143.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564487690
 MonoBehaviour:
@@ -7114,9 +7113,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: 'Are you sure you wish to reset?
-
-    All unlocked Cats and Barnyard animals will be lost.'
+  m_Text: 'Are you sure that you want to reset? All unlocked characters and saved
+    progress will be lost. '
 --- !u!222 &1564487691
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7616,7 +7614,7 @@ RectTransform:
   - {fileID: 8204575}
   - {fileID: 1684438187}
   m_Father: {fileID: 1988609622}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7817,7 +7815,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1734355528}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -240.82605, y: 66.95839, z: 0}
+  m_LocalPosition: {x: -240.9, y: 67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 25660504}
@@ -8242,7 +8240,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1842456769}
   m_LocalRotation: {x: -0, y: -0, z: 0.49688002, w: -0.8678193}
-  m_LocalPosition: {x: 324, y: 118, z: -4052.2798}
+  m_LocalPosition: {x: 307, y: 120, z: -4052.2798}
   m_LocalScale: {x: 55.03071, y: 57.742264, z: 46.98685}
   m_Children: []
   m_Father: {fileID: 623461522}
@@ -8319,7 +8317,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1855290230}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 119.17395, y: -73.04161, z: 0}
+  m_LocalPosition: {x: 119.100006, y: -73, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_Children:
   - {fileID: 129960309}
@@ -8713,7 +8711,7 @@ RectTransform:
   m_GameObject: {fileID: 1988609618}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.022226332, y: 0.022226332, z: 0.022226332}
+  m_LocalScale: {x: 0.022222223, y: 0.022222223, z: 0.022222223}
   m_Children:
   - {fileID: 185499875}
   - {fileID: 1396180582}
@@ -8723,9 +8721,9 @@ RectTransform:
   - {fileID: 1736176038}
   - {fileID: 1650890812}
   - {fileID: 2000145939}
+  - {fileID: 1496282606}
   - {fileID: 342211716}
   - {fileID: 1689221542}
-  - {fileID: 1496282606}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9177,7 +9175,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2114181512}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8260498, y: 66.95839, z: 0}
+  m_LocalPosition: {x: -0.8999939, y: 67, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_Children:
   - {fileID: 615780205}
